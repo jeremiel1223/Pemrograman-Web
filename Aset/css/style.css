@@ -32,6 +32,17 @@ font-weight:500;
 color:var(--primary)!important;
 }
 
+/* Instagram icon in navbar */
+.navbar .nav-link .fa-instagram {
+font-size: 1.2rem;
+color: #E1306C;
+transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover .fa-instagram {
+color: #c13584;
+}
+
 /* ===HOME/HERO(MENU)====*/
 #home{
 position:relative;
