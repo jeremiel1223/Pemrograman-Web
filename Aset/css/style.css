@@ -31,6 +31,24 @@ font-weight:500;
 .nav-link:hover{
 color:var(--primary)!important;
 }
+.nav-link{
+color:#555!important;
+font-weight:500;
+}
+.nav-link:hover{
+color:var(--primary)!important;
+}
+
+/* Instagram icon in navbar */
+.navbar .nav-link .fa-instagram {
+font-size: 1.2rem;
+color: #E1306C;
+transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover .fa-instagram {
+color: #c13584;
+}
 
 /* ===HOME/HERO(MENU)====*/
 #home{
@@ -225,4 +243,5 @@ line-height:1.6;
   color: #f1f1f1;
   font-size: 13px;
 }
+
 
